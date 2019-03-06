@@ -29,7 +29,7 @@ var UIlayer = {
     calculateBtn: document.querySelector("#calculate"),
     saveBtn: document.querySelector("#save"),
 
-    heading: "BMI CALCULATOR",
+    heading: "BMI Calculator",
     weightTxt: "Enter the Weight",
     heightTxt: "Enter the Height",
     wristTxt: "Enter the Wrist size",
