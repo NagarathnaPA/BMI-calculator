@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <title>BMI and FAT Calculator</title>
+</head>
+<link rel="stylesheet" type="text/css" href="BMI.css">
+
+<body align="center">
+    <header>
+        <h1 id="heading"></h1>
+    </header>
+    <div>
+        <label id="weightLabel"></label>
+        <input type="text" id="weightTextBox" placeholder="enter only in kg's" maxlength="5" onkeypress=" return alertInvalidKey(this)" /><br>
+
+        <label id="heightLabel"></label>
+        <input type="text" id="heightTextBox" placeholder="enter only in meters " maxlength="4" onkeypress=" return alertInvalidKey(this)" /><br>
+
+        <label id="wristLabel"></label>
+        <input type="text" id="wristTextBox" placeholder="enter only in inches" maxlength="4" onkeypress=" return alertInvalidKey(this)" /><br>
+
+        <label id="waistLabel"></label>
+        <input type="text" id="waistTextBox" placeholder="enter only in inches" maxlength="4" onkeypress=" return alertInvalidKey(this)" /><br>
+
+        <label id="hipLabel"></label>
+        <input type="text" id="hipTextBox" placeholder="enter only in inches" maxlength="4" onkeypress=" return alertInvalidKey(this)" /><br>
+
+        <label id="forearmLabel"></label>
+        <input type="text" id="forearmTextBox" placeholder="enter only in inches" maxlength="4" onkeypress=" return alertInvalidKey(this)" /><br>
+
+        <label id="genderLabel"></label>
+        <input type="radio" id="male" value="male" name="genders" checked="checked" /><label>Male</label>
+        <input type="radio" id="female" value="female" name="genders" /><label>Female</label><br>
+
+        <div id="result"></div>
+        <input type="button" id="calculate" value="Calculate BMI" />
+        <input type="button" id="save" value="save" /><br>
+
+        <img src="BMI-Chart-1.jpg" />
+        <table id="output_table" class="center">
+            <caption>Person's Details</caption>
+            <tr>
+                <th>Weight</th>
+                <th>BMI</th>
+                <th>FAT %</th>
+            </tr>
+        </table>
+    </div>
+    <script src="BMI.js"></script>
+</body>
+
+</html>

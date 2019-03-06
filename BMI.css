@@ -1,0 +1,56 @@
+
+header{
+    background-color:rgba(15, 161, 41, 0.79);
+    color:white;
+}
+table,td,th{
+   
+    padding: 10px;
+    border-collapse: collapse; 
+}
+
+.center{
+    position: fixed;
+    right: 70;
+    top: 50;
+}
+input,select{
+
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+  
+    left: 30px;
+    border-style: outset;
+    
+}
+h1,label,input,select,caption,td,th{
+   
+    font-weight: bold;
+    font-family: Geneva;
+    font-style: italic;
+ 
+}
+input[types=text]{
+    border-style: inset;
+}
+
+th{
+    border-bottom: 1px solid black;
+}
+button{
+    border-radius: 2px;
+}
+
+input[type=button]:hover{
+    background-color:  rgba(15, 161, 41, 0.79);
+    box-shadow: 5px 5px 5px;
+    
+}
+img{
+    position: fixed;
+    width: 340;
+    height: 400;
+    left: 10;
+    top: 50;
+}
