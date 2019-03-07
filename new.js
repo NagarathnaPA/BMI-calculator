@@ -1,1 +1,1 @@
-var a=1;kjh
+var a=1;
